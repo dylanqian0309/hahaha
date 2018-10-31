@@ -817,3 +817,27 @@ DEBUG [2018-10-31 14:39:10] /usr/lib/python2.7/site-packages/django/db/backends/
 DEBUG [2018-10-31 14:39:10] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 11322 139948255741696 
  	 (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=() 
 
+DEBUG [2018-10-31 15:31:31] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12037 139923272099584 
+ 	 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None 
+
+DEBUG [2018-10-31 15:31:31] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12037 139923272099584 
+ 	 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None 
+
+DEBUG [2018-10-31 15:31:31] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12037 139923272099584 
+ 	 (0.001) SHOW FULL TABLES; args=None 
+
+DEBUG [2018-10-31 15:31:31] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12037 139923272099584 
+ 	 (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=() 
+
+DEBUG [2018-10-31 15:32:02] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12061 140108131124992 
+ 	 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None 
+
+DEBUG [2018-10-31 15:32:02] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12061 140108131124992 
+ 	 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None 
+
+DEBUG [2018-10-31 15:32:02] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12061 140108131124992 
+ 	 (0.001) SHOW FULL TABLES; args=None 
+
+DEBUG [2018-10-31 15:32:02] /usr/lib/python2.7/site-packages/django/db/backends/utils.py 89 execute 12061 140108131124992 
+ 	 (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=() 
+
