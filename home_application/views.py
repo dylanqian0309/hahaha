@@ -7,7 +7,7 @@ def home(request):
     """
     首页
     """
-    return render_mako_context(request, '/home_application/helloworld.html')
+    return render_mako_context(request, '/home_application/home.html')
 
 
 def dev_guide(request):
@@ -29,3 +29,9 @@ def helloworld(request):
     hello world 实例
     """
     return render_mako_context(request, '/home_application/helloworld.html')
+
+def bootstrap(request):
+    """
+    hello world 实例
+    """
+    return render_mako_context(request, '/home_application/bootstrap.html')
